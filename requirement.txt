@@ -1,0 +1,4 @@
+The pagkages for this project will be imported as follows;
+import pandas
+import plotly
+import palmerpenguins
