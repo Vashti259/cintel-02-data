@@ -1,4 +1,4 @@
-PyShiny Express: Palmer Penguins Dashboard
+#  PyShiny Express: Palmer Penguins Dashboard
 Repository: pyshiny-penguins-dashboard-express
 Live App: Penguins Dashboard (Express)
 Run and publish interactive apps using PyShiny Express and GitHub Pages.
@@ -112,27 +112,3 @@ py -m http.server --directory docs --bind localhost 8008
 Open a browser (tested with Chrome) and navigate to http://localhost:8008 to view the app running locally.
 
 After Editing, Git Add/Commit/Push Changes to GitHub
-After editing project files, use Git add/commit/push changes to the main branch of the repository. Note that if a terminal is serving an app, it is not available for other commands. Run the following commands from a new or available terminal to git add/commit/push changes to GitHub. Replace "Your commit message" with a meaningful message about the changes you made to the project files. Run commands one at a time and wait for each to complete before running the next.
-
-git add .
-git commit -m "Your commit message"
-git push -u origin main
-Publish the App with GitHub Pages (one-time setup)
-The first time you set up an app, you'll need to navigate to the repository on GitHub and configure the settings to publish the app with GitHub Pages. After configuring the repository once, each time you push changes to the main branch, the app will automatically update.
-
-Go to the repository on GitHub and navigate to the Settings tab.
-Scroll down and click the Pages section.
-Select branch main as the source for the site.
-Change from the root folder to the docs folder to publish from.
-Click Save and wait for the site to build.
-Edit the "About" section of the repository to include a link to the live app.
-Resources
-Example csv data from penguins.csv. Used for review only. In the app, we import the data from the palmerpenguins package.
-
-Palmer Penguins published in:
-
-Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
-Data originally published in:
-
-Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
-The Shiny development team. Shiny for Python [Computer software]. https://github.com/posit-dev/py-shiny
