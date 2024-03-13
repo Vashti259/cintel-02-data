@@ -7,10 +7,10 @@ from shinywidgets import render_plotly
 import palmerpenguins
 import seaborn
 
-ui.page_opts(title="Vashti's Unique billing", fillable=True)
+ui.page_opts(title="Vashti's Unique App", fillable=True)
 with ui.layout_columns():
     with ui.sidebar():
-        ui.input_slider("n", "N", 0, 25, 100)
+        ui.input_slider("n", "N", 25, 50, 200)
 
 
 @render.plot(alt="A histogram")
