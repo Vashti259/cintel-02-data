@@ -1,4 +1,9 @@
-The pagkages for this project will be imported as follows;
+# The packages for this project will be imported as follows;
+import matplotlib
 import pandas
 import plotly.express
 import palmerpenguins
+Shiny.express
+Shinywidget
+numphy
+seaborn
